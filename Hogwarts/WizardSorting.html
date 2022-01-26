@@ -1,0 +1,217 @@
+<html>
+
+<head>
+    <title>Which House would You be In?
+    </title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../Assets/Fonts/stylesheet.css">
+</head>
+<style>
+  .navbar {
+    width: 100vw;
+    min-width: 100vw;
+    min-height: 7vh;
+    height: 7vh;
+    background-color: red;
+    font-family: harry_pregular;
+    font-size:3em;
+}
+    .Container-box {
+        display: flex;
+        justify-content: center;
+    }
+
+    .Submit-btn {
+        background-color: Black;
+        color: goldenrod;
+    }
+    .question_form {
+        background-color: white;
+        margin: 2vw;
+        padding: 2vw;
+        font-size: 2rem;
+        border-radius: 10px;
+        border: 1px solid goldenrod;
+    box-shadow:  -1px 1px goldenrod,
+         -2px 2px goldenrod,
+         -3px 3px goldenrod,
+         -4px 4px goldenrod,
+         -5px 5px goldenrod;
+        
+    }
+    .ques {
+        padding: 2vw;
+    }
+    * {
+        font-family: harry_pregular;
+    }
+    .navbar {
+    width: 100vw;
+    min-width: 100vw;
+    min-height: 7vh;
+    height: 7vh;
+    background-color: red;
+    font-size:3rem;
+    }
+    .NewDivClass {
+      text-align: center;
+      color: white;
+      font-size:4rem;
+
+    }
+</style>
+
+<body style="background-image: url(../Assets/Images/bg.png);background-size: cover; overflow-x: hidden;">
+    <!-- NavBar-->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark" style="height: 10vh">
+        <a class="navbar-brand" href="#"><img src="../Assets/Images/logo.png" width="50%"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Quizzes</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Discover
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown"
+                style="background: goldenrod; font-size: 2.8rem;">
+                <a class="dropdown-item" href="#">Movies</a>
+                <a class="dropdown-item" href="#">Books</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Characters</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="./enterHogwarts.html">Hogwarts</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <button class="btn btn-lg btn-outline-warning my-2 my-sm-0" type="submit">Sign In</button>
+          </form>
+        </div>
+      </nav>
+
+
+
+    <div class="Container-box">
+        <div class="question_form"id="demo" style="background-color: white ;">
+          <h1 style="font-size: 5rem; text-align: center">Know Your Character</h1>
+            <div class="question1 ques">
+                <label for="ques1">Q.1 Favorite Hobby?</label><br>
+                <input type="radio" id="ans1-1" name="ques1" value="RBAD"> Reading Books and Drawing</input><br>
+                <input type="radio" id="ans1-2" name="ques1" value="WMAT"> Watching Movies And Theatre</input><br>
+                <input type="radio" id="ans1-3" name="ques1" value="SAA"> Sports and Athletics</input><br>
+                <input type="radio" id="ans1-4" name="ques1" value="CAG"> Cooking And Gardening</input><br>
+
+            </div>
+            <div class="question2 ques">
+                <label for="ques2">Q.2 What Will You Choose if You had a Chance?</label><br>
+                <input type="radio" id="ans2-1" name="ques2" value="BRBI">Be Rich and Powerful but isolated </input><br>
+                <input type="radio" id="ans2-2" name="ques2" value="BPBHBE">Be Popular but Hated by Everyone</input><br>
+                <input type="radio" id="ans2-3" name="ques2" value="PBBAHF">Poor but Big and Happy family </input><br>
+                <input type="radio" id="ans2-4" name="ques2" value="EWWYP">Exploring world with your partner</input><br>
+
+            </div>
+            <div class="ques question3">
+                <label for="ques3">Q.3 Which One Are You?</label><br>
+                <input type="radio" id="ans3-1" name="ques3" value="KBLTBB"> Kind but likely to be betrayed</input><br>
+                <input type="radio" id="ans3-2" name="ques3" value="IASI"> Introvert and self independent</input><br>
+                <input type="radio" id="ans3-3" name="ques3" value="YHALOF"> You have a lot of friends </input><br>
+                <input type="radio" id="ans3-4" name="ques3" value="PBNTF"> Popular but not any true friends
+                </input><br>
+
+            </div>
+            <div class="ques question4">
+                <label for="ques4">Q.4 If a Muggle finds your True Identity What will u do?</label><br>
+                <input type="radio" id="ans4-1" name="ques4" value="JHOTH"> Jinx Him or tease him </input><br>
+                <input type="radio" id="ans4-2" name="ques4" value="THTH"> Tell him the truth </input><br>
+                <input type="radio" id="ans4-3" name="ques4" value="HHUATHAD"> Help him understand and Take him to a
+                doctor </input><br>
+                <input type="radio" id="ans4-4" name="ques4" value="THHICAMO"> Tell him he is crazy And Move on
+                </input><br>
+
+            </div>
+            <div class="ques question5">
+                <label for="ques5">Q.5 Who Would You Save?</label><br>
+                <input type="radio" id="ans5-1" name="ques5" value="YFR">Your Friends</input><br>
+                <input type="radio" id="ans5-2" name="ques5" value="YFA">Your Family</input><br>
+                <input type="radio" id="ans5-3" name="ques5" value="YOU">Yourself</input><br>
+                <input type="radio" id="ans5-4" name="ques5" value="EE">Everyone Else</input><br>
+
+            </div>
+            <div class="ques question6">
+                <label for="ques6">Q.6 How Would you like to die?</label><br>
+                <input type="radio" id="ans6-1" name="ques6" value="FFYB"> Fighting For Your Beliefs</input><br>
+                <input type="radio" id="ans6-2" name="ques6" value="P"> Peaceful </input><br>
+                <input type="radio" id="ans6-3" name="ques6" value="WETW"> While Exploring the World </input><br>
+                <input type="radio" id="ans6-4" name="ques6" value="IAWTERY"> In a Way That Everyone Remembers You
+                </input><br>
+
+            </div>
+            <div class="ques question7">
+                <label for="ques7">Q.7 Who Would You like to bring to life again?</label><br>
+                <input type="radio" id="ans7-1" name="ques7" value="CD"> Cedric Diggory </input><br>
+                <input type="radio" id="ans7-2" name="ques7" value="JP"> James Potter </input><br>
+                <input type="radio" id="ans7-3" name="ques7" value="SS"> Severus Snape </input><br>
+                <input type="radio" id="ans7-4" name="ques7" value="SB"> Sirius Black </input><br>
+
+            </div>
+            <div class="ques question8">
+                <label for="ques8">Q.8 Which Character You hate the most?</label><br>
+                <input type="radio" id="ans8-1" name="ques8" value="VOL"> Voldemort </input><br>
+                <input type="radio" id="ans8-2" name="ques8" value="BL"> Bellatrix lestrange</input><br>
+                <input type="radio" id="ans8-3" name="ques8" value="DU"> Dolores Umbridge </input><br>
+                <input type="radio" id="ans8-4" name="ques8" value="LM"> Lucius Malfoy </input><br>
+
+
+            </div>
+            <div class="ques question9">
+                <label for="ques9">Q.9 If u Find A Dementor in Muggle Society?</label><br>
+                <input type="radio" id="ans9-1" name="ques9" value="FHWPC"> Fight Him With Patronus Charm </input><br>
+                <input type="radio" id="ans9-2" name="ques9" value="THMETD"> Try Help Muggle Escape The darkness
+                </input><br>
+                <input type="radio" id="ans9-3" name="ques9" value="FYLOATTSTF"> Find your loved ones and try to save
+                them first </input><br>
+                <input type="radio" id="ans9-4" name="ques9" value="AABTDAGT"> Act as Bait to dementor and give time for
+                others to escape </input><br>
+
+            </div>
+            <div class="ques question10">
+                <label for="ques10">Q.10 Favorite House?</label><br>
+                <input type="radio" id="ans10-1" name="ques10" value="GRY"> Gryffindor </input><br>
+                <input type="radio" id="ans10-2" name="ques10" value="SLY"> Slytherin </input><br>
+                <input type="radio" id="ans10-3" name="ques10" value="HUFF"> Hufflepuff </input><br>
+                <input type="radio" id="ans10-4" name="ques10" value="RAVEN"> Ravenclaw </input><br>
+
+            </div>
+            <button class="btn btn-lg btn-outline-warning my-2 my-sm-0" onClick="GetData()">Submit</button>
+        </div>
+        <div id="Extra"></div>
+    </div>
+    <script type="text/javascript" src="./script.js"></script>
+
+     <!-- Bootstrap links JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+  crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+  crossorigin="anonymous"></script>
+</body>
+
+</html>

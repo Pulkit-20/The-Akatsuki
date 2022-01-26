@@ -1,0 +1,142 @@
+*{
+    margin:0;
+}
+.place {
+    position: absolute;
+    width: 1190px;
+    height: 437px;
+    left: 60px;
+    top: 56px;
+
+}
+body{
+     height: 130vh;
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+.img {
+    position: absolute;
+    width: 305px;
+    height: 400px;
+    left: 60px;
+    top: 12vh;
+    z-index: 10px;
+   
+}
+.hp {
+    position: absolute;
+    width: 885px;
+    height: 166px;
+    left: 375px;
+    top: 12vh;
+
+    font-family:monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+   
+    text-align: center;
+
+    color: rgb(230, 204, 89);
+
+}
+.text {
+    position: absolute;
+    width: 885px;
+    height: 166px;
+    left: 375px;
+    top: 200px;
+
+    font-family: cursive ;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1S0px;
+    line-height: px;
+    text-align: center;
+
+    color: rgb(230, 204, 89);
+}
+.but {
+    position: absolute;
+    width: 279px;
+    height: 45px;
+    left: 441px;
+    top: 323px;
+
+    font-family: Cinzel Decorative;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+  
+    text-align: center;
+
+    
+}
+
+.info {
+    position: absolute;
+    width: 903px;
+    height: 232px;
+    left: 380px;
+    color: rgb(230, 204, 89);
+    font-family: cursive;
+    font-size: 20px;
+    top: 9cm ;
+}
+.I{
+    top: 90px;
+    font-size: 76px;
+    font-family: cursive;
+    line-height: 10px;
+    
+}
+.btn1{
+    background-color: rgba(0, 0, 0, 0.13);
+   color: rgb(230, 204, 89);
+
+    border: none;
+    padding: 15px 30px;
+    text-align:center;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 350px;
+    cursor:pointer;
+    display: inline-block;
+
+}
+.btn2{
+    background-color: rgba(61, 61, 231, 0);
+    color: rgb(230, 204, 89);
+ 
+    border: none;
+    border-radius: 10%;
+    padding: 15px 30px;
+    text-align:center;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 8px 100px 0px 534px;
+    cursor:pointer;
+
+}
+.btn1:hover{
+    color: orange;
+    font-size:19px;
+    padding: 16px 31px;
+    z-index: 5;
+    margin-left: 348px;
+}
+.btn2:hover{
+    background-color: rgb(230, 204, 89);
+    color: black;
+    font-size: 20px;
+    
+}
+.navbar {
+    width: 131vw;
+    min-width: 100vw;
+    min-height: 7vh;
+    height: 7vh;
+    background-color: red;
+    font-family: harry_pregular;
+    font-size:3em;
+}

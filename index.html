@@ -1,104 +1,171 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Potter Head</title>
-    </head>
-    <style>
-        * {
-            margin: 0;
-            padding :0;
-            box-sizing: border-box;
-        }
-        body{
-            background: url("bg3.png");
-            background-repeat: no-repeat;
-            background-size: cover;
-            }
-        #one{
-            font-size:40px;
-            margin-left:300px;
-            color:rgb(230, 204, 89);
-            margin-top:50px;
-        }
-        #logo{
-            margin-left:480px;
-            margin-top:50px;
-            font-size: 76px;
-            font-family:'Segoe UI';
-            font-weight: 400;
-            color:rgb(230, 204, 89);
-        }
-        #nav{
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-            background-color: rgba(0, 0, 0, 0.555);
-            padding: 1rem 0rem 1rem 7.5rem;
-            z-index: 20;
-        }
-        .nav1{
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-        }
-        .nav1 li{
-            list-style: none;
-        }
-        .three{
-            padding-right: 50px;
-            text-decoration: none;
-            font-size: 36px;
-            color:rgb(230, 204, 89);
-            text-transform: uppercase;
-        }
-        .two{
-            margin-left: 160px;
-            padding: 3px;
-            text-decoration: none;
-            font-size: 36px;
-            color:rgb(230, 204, 89);
-            border: 2px solid rgb(230, 204, 89);
-        }
-        #nav0{
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-            background-color: rgba(0, 0, 0, 0.562);
-            padding: 1rem 38.5rem;
-            z-index: 20;
-        }
-        #nav0 a{
-            font-size: 2.95rem;
-            color:rgb(230, 204, 89);
-            text-decoration: none;
-        }
-    </style>
-        <body 
-            <header>
-                <div id=nav0><a href="index.html">Potter Head</a></div>
-                <div id="nav">
-                    <ul class="nav1">
-                        <li><a href="" class="three">Films</a></li>
-                        <li><a href="" class="three">Chracters</a></li>
-                        <li><a href="" class="three">Quizzes</a></li>
-                        <li><a href="" class="three">Hogwards</a></li>
-                        <li><a href="" class="three">Fan Club</a></li>
-                        <li><a class="two">Sign In</a></li>
-                    </ul>
-                </div>
-            </header>
-            <div class="main">
-                <div id="logo">Harry Potter</div>
-                <div id="one">
-                We Here Present You with The Website you wanted.
-            </div>
-            <div id="one1">
-            
-            </div>
-            </main>
-        </body>
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./Assets/Fonts/stylesheet.css">
+
+  <title>Potter Head</title>
+</head>
+
+<body style="overflow-x: hidden;">
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark" style="height: 10vh">
+    <a class="navbar-brand" href="#"><img src="./Assets/Images/logo.png" width="50%"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./Quizzes/mainquizpage.html">Quizzes</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Discover
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background: goldenrod; font-size: 2.8rem;">
+            <a class="dropdown-item" href="./Movies/Films.html">Movies</a>
+            <a class="dropdown-item" href="./Books/Books.html">Books</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="./Chracters/chrac.html">Characters</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="./Hogwarts/enterHogwarts.html">Hogwarts</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Hero Section -->
+  <div class="container hero-section">
+    <div class="row">
+      <div class="col-sm col-md image-hero-section">
+        <img src="./Assets/Images/hero.png">
+      </div>
+      <div class="col-md col-sm text-hero-section">
+        <h1>
+          <p class="typewrite" style="color:rgb(230, 204, 89); font-family: harry_pregular; font-size: 3rem;"
+            data-period="2000"
+            data-type='[ "Hi, This is Fan website for all the Potter Heads", "We love Harry","We love Dumbledore", "We love J.K Rowling" ]'>
+            <span class="wrap"></span>
+          </p>
+        </h1>
+        <a href="#downscroll"><button type="button" style="margin-top: 4vh; font-size:2rem"
+          class="btn btn-lg btn-outline-warning scroll-button">Scroll Down</button></a>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Image section-->
+  <div class="container-fluid cards-area">
+    <div class="row">
+      <div class="col image-one" id="downscroll">
+        <img src="./Assets/Images/first.jpg" class="overlay-image">
+        <div class="overlay"></div>
+      </div>
+      <div class="col"></div>
+    </div>
+
+    <div class=" row">
+      <div class="col col-md-6 " ></div>
+      <div class="col col-md-6 image-two">
+        <img src="./Assets/Images/second.jpg" class="overlay-image">
+        <div class="overlay"></div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col image-one">
+        <img src="./Assets/Images/third.jpg" class="overlay-image">
+        <div class="overlay"></div>
+      </div>
+      <div class="col"></div>
+    </div>
+
+    <div class="image-section row">
+      <div class="col col-md-6 "></div>
+      <div class="col col-md-6 image-two">
+        <img src="./Assets/Images/fourth.jpg" class="overlay-image">
+        <div class="overlay"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col image-one">
+        <img src="./Assets/Images/fifth.jpg" class="overlay-image">
+        <div class="overlay"></div>
+      </div>
+      <div class="col"></div>
+    </div>
+
+    <div class=" row">
+      <div class="col col-md-6 "></div>
+      <div class="col col-md-6 image-two">
+        <img src="./Assets/Images/sixth.jpg" class="overlay-image">
+        <div class="overlay"></div>
+      </div>
+    </div>
+    <div class=" row">
+      <div class="col col-md-6 image-one">
+        <img src="./Assets/Images/seventh.jpg" class="overlay-image">
+        <div class="overlay"></div>
+      </div>
+      <div class="col col-md-6 "></div>
+    </div>
+  </div>
+  </div>
+
+
+
+
+  <!-- Fotter-->
+
+  <div class="container-fluid footerDiv">
+    <center>Contact Us</center>
+    <div class="row">
+      <div class="col-6 col-md-6" style="text-align: center; font-size:1.5rem">
+        <p>
+          <span style="font-size:2.5rem">Pulkit</span>
+          <br>
+          2110992469
+          <br>
+        </p>
+      </div>
+      <div class="col-6 col-md-6" style="text-align: center; font-size:1.5rem">
+        <p>
+          <span style="font-size:2.5rem">Vineet</span>
+          <br>
+          2110992494
+          <br>
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- Bootstrap links JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+  <!-- Local Script-->
+  <script src="./js/script.js"></script>
+</body>
 
 </html>

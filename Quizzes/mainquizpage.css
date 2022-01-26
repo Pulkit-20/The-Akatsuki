@@ -1,0 +1,79 @@
+body{
+    display: grid;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 0vh;
+    margin: 0;
+    overflow: hidden;
+    place-items: center;
+    background-image: url(../Assets/Images/bg2.jpg);
+    background-size: cover;
+
+
+}
+
+.h1{
+    color:rgb(230 , 204 , 89);
+    margin-top:15vh;
+    margin-bottom:15vh;
+}
+
+.ribbon{
+ 
+    min-height: 200px;
+    --angle: 0deg;
+    --color1: hsl(var(--angle), 50%, 50%);
+    --color2: hsl(var(--angle), 50%, 40%);
+    --color3: hsl(var(--angle), 50%, 25%);
+    --color4: rgb(230 , 204 , 89);
+    --size1: 5rem;
+    --size2: calc(var(--size1) * 0.75);
+    --size3:  calc(var(--size1) * 0.25);
+    background: 
+        /*main*/
+        linear-gradient(var(--color1) 0 0) 50% 0 / calc(100% - var(--size2) * 2) calc(100% - var(--size3)),
+        /*fold*/
+        linear-gradient(to top right , #0000 50%, var(--color3) 0) var(--size2) 100% /var(--size3) var(--size3),
+        linear-gradient(to top left , #0000 50%, var(--color3) 0) calc(100% - var(--size2)) 100% / var(--size3) var(--size3),
+        /* back*/
+        linear-gradient(to top right , #0000 50%, var(--color2) 0) 0 100% / var(--size1) var(--size2),
+        linear-gradient(to bottom right, #0000 50%, var(--color2) 0) 0 100% / var(--size1) var(--size2),
+        linear-gradient(to top left , #0000 50%, var(--color2) 0) 100% 100% / var(--size1) var(--size2),
+        linear-gradient(to bottom left, #0000 50%, var(--color2) 0) 100% 100% / var(--size1) var(--size2)
+    ;
+   
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    color: var(--color4);
+    margin-bottom: var(--size3);
+    min-height: var(--size1);
+    padding: var(--size3) var(--size2) var(--size3) var(--size2);
+    text-align: center;
+    text-transform:uppercase;
+}
+.ribbon.round{
+  
+    border-radius: 100% / 50% 50% 8% 8%;
+    background: 
+       /*main*/
+       radial-gradient( 500% 100% at 50% 100% ,#0000 10% ,var(--color1) 10.5% ) 50% 0 / calc(100% - var(--size2) * 2) calc(100% - var(--size3)),
+
+        /*fold*/
+        linear-gradient( 45deg , #0000 25%, var(--color3) 0) var(--size2) 100% /var(--size3) var(--size2),
+        linear-gradient( -45deg , #0000 25%, var(--color3) 0) calc(100% - var(--size2)) 100% / var(--size3) var(--size2),
+        /* back*/
+        
+        linear-gradient(to top right , #0000 50%, var(--color2) 0) 0 100% / var(--size1) var(--size2),
+        linear-gradient(to bottom right, #0000 50%, var(--color2) 0) 0 100% / var(--size1) var(--size2),
+        linear-gradient(to top left , #0000 50%, var(--color2) 0) 100% 100% / var(--size1) var(--size2),
+        linear-gradient(to bottom left, #0000 50%, var(--color2) 0) 100% 100% / var(--size1) var(--size2)
+    ;
+
+background-repeat: no-repeat;
+box-sizing: border-box;
+color: var(--color4);
+margin-bottom: var(--size3);
+min-height: var(--size1);
+padding: var(--size3) var(--size2) var(--size3) var(--size2);
+text-align: center;
+text-transform:uppercase;
+}
