@@ -389,7 +389,7 @@ footer button.show{
     background: rgb(230 , 204 , 89);
 }
 .navbar {
-    width: 121vw;
+    width: 141vw;
     min-width: 100vw;
     min-height: 7vh;
     height: 7vh;
@@ -397,3 +397,12 @@ footer button.show{
     font-family: harry_pregular;
     font-size:3em;
 }
+@media only screen and (max-width: 600px) {
+    .start_btn,
+    .info_box,
+    .quiz_box,
+    .result_box{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    }
