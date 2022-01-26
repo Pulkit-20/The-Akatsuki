@@ -37,6 +37,7 @@ html {
 }
 .wrapper{
     margin-top:-2vh;
+    min-width: 100vh;
 }
 
 #stars {
