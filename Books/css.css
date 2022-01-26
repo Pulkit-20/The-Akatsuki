@@ -12,7 +12,6 @@
 body{
      height: 130vh;
      background-size: cover;
-     background-repeat: no-repeat;
      overflow-x: hidden;
 }
 .img {
@@ -82,7 +81,7 @@ body{
     color: rgb(230, 204, 89);
     font-family: cursive;
     font-size: 20px;
-    top: 17vh ;
+    top: 23vh ;
 }
 .I{
     top: 90px;

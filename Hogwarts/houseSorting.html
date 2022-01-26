@@ -1,0 +1,211 @@
+<html>
+
+<head>
+    <title>Which House would You be In?
+    </title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../Assets/Fonts/stylesheet.css">
+</head>
+<style>
+  .navbar {
+    width: 100vw;
+    min-width: 100vw;
+    min-height: 7vh;
+    height: 7vh;
+    background-color: red;
+    font-family: harry_pregular;
+    font-size:3em;
+}
+    .Container-box {
+        display: flex;
+        justify-content: center;
+    }
+
+    .Submit-btn {
+        background-color: Black;
+        color: goldenrod;
+    }
+    .question_form {
+        background-color: white;
+        margin: 2vw;
+        padding: 2vw;
+        font-size: 2rem;
+        border-radius: 10px;
+        border: 1px solid goldenrod;
+    box-shadow:  -1px 1px goldenrod,
+         -2px 2px goldenrod,
+         -3px 3px goldenrod,
+         -4px 4px goldenrod,
+         -5px 5px goldenrod;
+        
+    }
+    .ques {
+        padding: 2vw;
+    }
+    * {
+        font-family: harry_pregular;
+    }
+    .navbar {
+    width: 100vw;
+    min-width: 100vw;
+    min-height: 7vh;
+    height: 7vh;
+    background-color: red;
+    font-size:3rem;
+    }
+    .NewDivClass {
+      text-align: center;
+      color: white;
+      font-size:4rem;
+
+    }
+</style>
+
+<body style="background-image: url(../Assets/Images/bg.png);background-size: cover; overflow-x: hidden;">
+    <!-- NavBar-->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark" style="height: 10vh">
+        <a class="navbar-brand" href="#"><img src="../Assets/Images/logo.png" width="50%"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Quizzes</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Discover
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown"
+                style="background: goldenrod; font-size: 2.8rem;">
+                <a class="dropdown-item" href="#">Movies</a>
+                <a class="dropdown-item" href="#">Books</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Characters</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="./enterHogwarts.html">Hogwarts</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+    <div class="Container-box">
+        <div class="question_form"id="demo" style="background-color: white ;">
+          <h1 style="font-size: 5rem; text-align: center">Get Sorted Now</h1>
+            <div class="question1 ques">
+                <label for="ques1">Q.1 When you're dead, what do you want people do when they think of you?</label><br>
+                <input type="radio" id="ans1-1" name="ques1" value="RC"><label for="ans1-1">&nbsp; Miss me and smile</label></input><br>
+                <input type="radio" id="ans1-2" name="ques1" value="ST"><label for="ans1-2">&nbsp; Think of my achievements</label></input><br>
+                <input type="radio" id="ans1-3" name="ques1" value="HP"><label for="ans1-3">&nbsp; Tell stories about my adventures</label></input><br>
+                <input type="radio" id="ans1-4" name="ques1" value="GD"><label for="ans1-4">&nbsp; I don't care what people think of me when I'm dead</label></input><br>
+
+            </div>
+            <div class="question2 ques">
+                <label for="ques2">Q.2 Which is your favorite Element of the Following options? </label><br>
+                <input type="radio" id="ans2-1" name="ques2" value="HP"><label for="ans2-1">&nbsp; Earth</label></input><br>
+                <input type="radio" id="ans2-2" name="ques2" value="ST"><label for="ans2-2">&nbsp; Water</label></input><br>
+                <input type="radio" id="ans2-3" name="ques2" value="GD"><label for="ans2-3">&nbsp; Fire</label></input><br>
+                <input type="radio" id="ans2-4" name="ques2" value="RC"><label for="ans2-4">&nbsp; Air</label></input><br>
+
+            </div>
+            <div class="ques question3">
+                <label for="ques3">Which of the following would you most like to study?</label><br>
+                <input type="radio" id="ans3-1" name="ques3" value="GD"><label for="ans3-1">&nbsp; Werewolves</label></input><br>
+                <input type="radio" id="ans3-2" name="ques3" value="RC"><label for="ans3-2">&nbsp; Ghosts</label></input><br>
+                <input type="radio" id="ans3-3" name="ques3" value="HP"><label for="ans3-3">&nbsp; Goblins </label></input><br>
+                <input type="radio" id="ans3-4" name="ques3" value="ST"><label for="ans3-4">&nbsp; Trolls</label></input><br>
+
+            </div>
+            <div class="ques question4">
+                <label for="ques4">Q.4 How would you Describe friendship in a word?</label><br>
+                <input type="radio" id="ans4-1" name="ques4" value="ST"><label for="ans4-1">&nbsp; Pushy</label></input><br>
+                <input type="radio" id="ans4-2" name="ques4" value="GD"><label for="ans4-2">&nbsp; Boundless</label></input><br>
+                <input type="radio" id="ans4-3" name="ques4" value="RC"><label for="ans4-3">&nbsp; Kind</label></input><br>
+                <input type="radio" id="ans4-4" name="ques4" value="HP"><label for="ans4-4">&nbsp; Loyal</label></input><br>
+
+            </div>
+            <div class="ques question5">
+                <label for="ques5">Q.5 Which nightmare would scare you most?</label><br>
+                <input type="radio" id="ans5-1" name="ques5" value="ST"><label for="ans5-1">&nbsp; None of your friends or family know who you are</label></input><br>
+                <input type="radio" id="ans5-2" name="ques5" value="RC"><label for="ans5-2">&nbsp; Being trapped in dark room with an eye peering at you through a keyhole</label></input><br>
+                <input type="radio" id="ans5-3" name="ques5" value="HP"><label for="ans5-3">&nbsp; Being caught up high with no handholds</label></input><br>
+                <input type="radio" id="ans5-4" name="ques5" value="GD"><label for="ans5-4">&nbsp; Being forced to speak in a funny voice so that everyone laughs at you</label></input><br>
+
+            </div>
+            <div class="ques question6">
+                <label for="ques6">Q.6 What according to you is an important characteristic to be a good human being?</label><br>
+                <input type="radio" id="ans6-1" name="ques6" value="RC"><label for="ans6-1">&nbsp; Insightful </label></input><br>
+                <input type="radio" id="ans6-2" name="ques6" value="HP"><label for="ans6-2">&nbsp; Determination </label></input><br>
+                <input type="radio" id="ans6-3" name="ques6" value="ST"><label for="ans6-3">&nbsp; Supervision </label></input><br>
+                <input type="radio" id="ans6-4" name="ques6" value="GD"> <label for="ans6-4">&nbsp; Fearless
+                </label></input><br>
+
+            </div>
+            <div class="ques question7">
+                <label for="ques7">Q.7 Would you rather be?</label><br>
+                <input type="radio" id="ans7-1" name="ques7" value="GD"><label for="ans7-1">&nbsp; Trusted</label></input><br>
+                <input type="radio" id="ans7-2" name="ques7" value="RC"><label for="ans7-2">&nbsp; Liked</label></input><br>
+                <input type="radio" id="ans7-3" name="ques7" value="HP"><label for="ans7-3">&nbsp; Praised</label></input><br>
+                <input type="radio" id="ans7-4" name="ques7" value="ST"> <label for="ans7-4">&nbsp; Feared</label></input><br>
+
+            </div>
+            <div class="ques question8">
+                <label for="ques8">Q.8 What would you prefer to do in free time?</label><br>
+                <input type="radio" id="ans8-1" name="ques8" value="RC"><label for="ans8-1">&nbsp; Have a little Quiz</label></input><br>
+                <input type="radio" id="ans8-2" name="ques8" value="HP"><label for="ans8-2">&nbsp; Go out for a Stroll</label></input><br>
+                <input type="radio" id="ans8-3" name="ques8" value="ST"><label for="ans8-3">&nbsp; Video Game Tournament with friends </label></input><br>
+                <input type="radio" id="ans8-4" name="ques8" value="GD"><label for="ans8-4">&nbsp; Chit-Chat with close friends</label></input><br>
+
+
+            </div>
+            <div class="ques question9">
+                <label for="ques9">Q.9 If u Find A Dementor in Muggle Society?</label><br>
+                <input type="radio" id="ans9-1" name="ques9" value="ST"> <label for="ans9-1">&nbsp; Fight Him With Patronus Charm </label></input><br>
+                <input type="radio" id="ans9-2" name="ques9" value="RC"> <label for="ans9-2">&nbsp; Try Help Muggle Escape The darkness
+                </label></input><br>
+                <input type="radio" id="ans9-3" name="ques9" value="HP"> <label for="ans9-3">&nbsp; Find your loved ones and try to save
+                them first </label></input><br>
+                <input type="radio" id="ans9-4" name="ques9" value="GD"> <label for="ans9-4">&nbsp; Act as Bait to dementor and give time for
+                others to escape </label></input><br>
+
+            </div>
+            <div class="ques question10">
+                <label for="ques10">Q.10 One word for Harry Potter Universe?</label><br>
+                <input type="radio" id="ans10-1" name="ques10" value="RC"> <label for="ans10-1">&nbsp; Fascinating </label></input><br>
+                <input type="radio" id="ans10-2" name="ques10" value="HP"> <label for="ans10-2">&nbsp; Mindboggling </label></input><br>
+                <input type="radio" id="ans10-3" name="ques10" value="ST"> <label for="ans10-3">&nbsp; Dumbfounding </label></input><br>
+                <input type="radio" id="ans10-4" name="ques10" value="GD"> <label for="ans10-4">&nbsp; Spectacular </label></input><br>
+
+            </div>
+            <button class="btn btn-lg btn-outline-warning my-2 my-sm-0" onClick="GetData()">Submit</button>
+        </div>
+        <div id="Extra"></div>
+    </div>
+    <script type="text/javascript" src="./algorithm.js"></script>
+
+     <!-- Bootstrap links JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+  crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+  crossorigin="anonymous"></script>
+</body>
+
+</html>
