@@ -14,7 +14,7 @@ html{
 }
 .navbar {
     font-family: harry_pregular;
-    width: 122vw;
+    width: 135vw;
     min-width: 100vw;
     min-height: 7vh;
     height: 7vh;
@@ -83,7 +83,14 @@ scroll-button {
         transform: translate3d(0, 200px, 0);
     }
 }
-
+.cards-area{
+    width:100%;
+}
+@media only screen and (max-width: 600px) {
+.cards-area {
+    width:134vw;
+    }
+}
 .image-one {
     position: relative;
 }
@@ -130,9 +137,14 @@ scroll-button {
 
   .footerDiv{
       margin-top: 10vh;
-      background-color: goldenrod;
-      width: 123vw;
+      background-color: goldenrod; 
+      width:100vw;
       min-height:20vh;
+  }
+  @media only screen and (max-width: 600px){
+      .footerDiv{
+          width:135vw;
+      }
   }
 
   @media only screen and (max-width: 600px) {
